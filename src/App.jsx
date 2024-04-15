@@ -45,6 +45,7 @@ function Counter() {
       {count !== 0 &&
         <button onClick={() => {
           setCount(0)
+          setSteps(1)
         }}>Reset</button>
       }
     </>
